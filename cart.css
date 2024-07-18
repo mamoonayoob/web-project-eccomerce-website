@@ -1,0 +1,226 @@
+#cart{
+    background-color: #fff;
+    justify-content: center;
+    align-content: center;
+}
+#carttable{
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    border-collapse: collapse;
+    width: 90%;
+    height: 450px;
+    border:1px solid;
+    border: 1px solid #ccc;
+    margin: 5%;
+    
+}
+#carttable{
+    overflow-x: auto;
+}
+#carttable th{
+    
+    padding: 18px;
+    text-align: center;
+    height: 40px;
+    border:1px solid;
+    border-right: none;
+    border-left: none;
+    text-transform: uppercase;
+
+}
+#carttable td{
+    font-size: 15px;
+
+}
+
+#carttable tr td input{
+    height: 30px;
+    width: 20%;
+    
+}
+
+.cancel {
+    color: rgb(0, 114, 245);
+    text-decoration: none;
+}
+
+#carttable img {
+    max-width: 100px;
+    max-height: 100px;
+    border-style: 1px;
+    border-color: black;
+}
+
+
+#applycart {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    height: 400px;
+}
+
+.coupon-container {
+    background-color: #fff;
+
+    padding: 20px;
+    text-align: center;
+   
+    width: 45%;
+}
+
+.coupon-container h2 {
+    color: #333;
+}
+
+.coupon-container form {
+    margin-top: 20px;
+}
+
+.coupon-container input {
+    padding: 10px;
+    width: 60%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.coupon-container button {
+    margin-top: 15px;
+    margin-left: 3px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.coupon-container button:hover {
+    background-color: #45a049;
+}
+
+
+/* cart totals*/
+.cart-totals{
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 45%;
+    
+}
+.cart-checkout{
+    width: 90%;
+    height: 200px; 
+    align-content: center;
+}
+.cart-checkout td{
+    border: 1px solid #ccc;
+    padding: 15px;
+    font-size: 15px;
+}
+.proceed-button{
+    margin-top: 15px;
+    margin-left: 3px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.proceed-button:hover {
+    background-color: #45a049;
+}
+.content{
+    padding-left: 600px;
+    background-color: rgb(3, 176, 24);
+    padding-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+* styling newsletter section */
+#newsletter{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url(images/banners/b14.png);
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background-color: #041e42;
+}
+#newsletter h4{
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+#newsletter p{
+  font-size: 14px;
+  font-weight: 600;
+  color: #818ea8;
+}
+#newsletter p span{
+  
+  color: #ffbd27;
+}
+#newsletter .form{
+  display: flex;
+  width: 40%;
+
+}
+#newsletter input{
+  height: 3.25rem;
+  padding: 0 1.25em;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#newsletter button{
+  background-color: #088178;
+  color: white;
+  white-space: nowrap;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .col{
+  display: flex;
+  flex-direction: column;
+ align-items: flex-start;
+ margin-bottom: 20px;
+}
+footer .logo{
+  margin-bottom: 30px;
+}
+footer h4{
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+footer p{
+  font-size: 13px;
+ margin: 0 0 8px 0;
+}
+footer a{
+  font-size: 13px;
+  text-decoration: none;
+  color: #222;
+  padding-bottom: 10px;
+}
